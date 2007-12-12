@@ -1,6 +1,6 @@
 %define name	webmake
 %define version	2.4
-%define release 4mdk
+%define release %mkrel 4
 %define	module	HTML-WebMake
 
 Name: 	 	%{name}
