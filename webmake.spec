@@ -12,6 +12,7 @@ Source0:	%{module}-%{version}.tar.bz2
 URL:		http://webmake.taint.org/
 License:	GPL
 Group:		Networking/WWW
+BuildRoot:	%{_tmppath}/%{name}-buildroot
 BuildRequires:	perl-devel
 Requires:	perl-IO-String perl-Image-Size perl-Text-EtText
 Requires:	perl-DB_File perl-HTML-Parser
