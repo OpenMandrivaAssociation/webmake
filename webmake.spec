@@ -58,3 +58,42 @@ rm -rf $RPM_BUILD_ROOT
 %{perl_vendorlib}/HTML/WebMake*
 %{_datadir}/vim/syntax/%name.vim
 
+
+
+%changelog
+* Wed Sep 09 2009 Thierry Vignaud <tvignaud@mandriva.com> 2.4-8mdv2010.0
++ Revision: 434736
+- rebuild
+
+* Sun Aug 03 2008 Thierry Vignaud <tvignaud@mandriva.com> 2.4-7mdv2009.0
++ Revision: 261925
+- rebuild
+
+* Wed Jul 30 2008 Thierry Vignaud <tvignaud@mandriva.com> 2.4-6mdv2009.0
++ Revision: 255851
+- rebuild
+
+  + Olivier Blin <oblin@mandriva.com>
+    - restore BuildRoot
+
+* Mon Dec 17 2007 Thierry Vignaud <tvignaud@mandriva.com> 2.4-4mdv2008.1
++ Revision: 129304
+- kill re-definition of %%buildroot on Pixel's request
+- use %%mkrel
+- import webmake
+
+
+* Sun Aug 17 2003 Austin Acton <aacton@yorku.ca> 2.4-4mdk
+- add provides
+
+* Sat Aug 16 2003 Per Øyvind Karlsen <peroyvind@linux-mandrake.com> 2.4-3mdk
+- rebuild for new perl
+- use %%makeinstall_std macro
+- use INSTALLDIRS=vendor in stead of mv'ing files after install
+- cleanups
+
+* Mon Mar 31 2003 Austin Acton <aacton@yorku.ca> 2.4-2mdk
+- move to vendor_perl to avoid requires bug
+
+* Sun Mar 30 2003 Austin Acton <aacton@yorku.ca> 2.4-1mdk
+- initial package
