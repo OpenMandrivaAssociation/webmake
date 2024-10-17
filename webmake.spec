@@ -9,7 +9,7 @@ Version: 	%{version}
 Release: 	%{release}
 
 Source0:	%{module}-%{version}.tar.bz2
-URL:		http://webmake.taint.org/
+URL:		https://webmake.taint.org/
 License:	GPL
 Group:		Networking/WWW
 BuildRoot:	%{_tmppath}/%{name}-buildroot
