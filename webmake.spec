@@ -13,6 +13,7 @@ URL:		https://webmake.taint.org/
 License:	GPL
 Group:		Networking/WWW
 BuildRoot:	%{_tmppath}/%{name}-buildroot
+BuildRequires:	make
 BuildRequires:	perl-devel
 Requires:	perl-IO-String perl-Image-Size perl-Text-EtText
 Requires:	perl-DB_File perl-HTML-Parser
